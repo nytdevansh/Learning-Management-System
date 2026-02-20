@@ -6,6 +6,8 @@ import Random from '../Components/Random'
 import AdminDashboard from '../Layout/AdminDashboard'
 import Login from '../Pages/Login'
 import RegisterPage from '../Pages/RegisterPage'
+import QuestionPage from '../Components/QuestionPaper/Question'
+import Question from '../Components/QuestionPaper/Question'
 
 const AppRoutes = () => {
   return (
@@ -20,7 +22,7 @@ const AppRoutes = () => {
              <Route path="/attendance" element={<Random />} />
              <Route path="/assignments" element={<Random />} />
              <Route path="/quiz" element={<Random />} />
-             <Route path="/question-bank" element={<Random />} />
+             <Route path="/question-bank" element={<Question />} />
              <Route path="/materials" element={<Random />} />
              <Route path="/reports" element={<Random />} />
              <Route path="/announcements" element={<Random />} />
